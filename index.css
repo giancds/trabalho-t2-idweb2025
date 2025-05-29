@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f9fc;
+    color: #2c3e50;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin: 30px 0;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #3498db;
+    font-size: 2.2em;
+}
+
+ol {
+    padding: 0;
+    list-style-type: none;
+    counter-reset: fase-counter;
+}
+
+ol > li {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    counter-increment: fase-counter;
+}
+
+ol > li::before {
+    content: counter(fase-counter) "ª Fase";
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul > li {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #eee;
+}
+
+ul > li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+h3 {
+    color: #3498db;
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+    padding-left: 10px;
+    border-left: 3px solid #3498db;
+}
+
+p {
+    margin: 10px 0 0 15px;
+    padding: 0;
+}
+
+ul ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+ul ul li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    ol > li {
+        padding: 15px;
+    }
+}
