@@ -1,0 +1,19 @@
+.img_igr{
+    height: 100px;
+    width: 100px;
+}
+.titulo{
+    text-align: left;
+}
+.img_torta{
+    margin-top: 500px;
+}
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
