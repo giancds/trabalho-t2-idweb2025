@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(248, 161, 103, 0.89);
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+footer {
+    text-align: center;
+    padding: 2%;
+    background: #f5935a;
+    color: #1d1c1c;
+    margin-top: 2%;
+    font-size: 5;
+    box-shadow: 0 0 5px #555;
+}
+
+h3{
+    text-align: center;
+    padding: 2%;
+}
+
+h5{
+    text-align: center;
+    padding-top: 3%;
+}
+
