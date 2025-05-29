@@ -1,0 +1,64 @@
+#Menu_S{
+    display: flex;
+    background-color: seagreen;
+    justify-content: space-around;
+    padding: 25px;
+}
+ #BTN_S{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+ }
+#Conteudo{
+    display: flex;
+
+}
+#Menu_LD{
+    padding: 25px;
+    align-items: center;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#Menu_LE{
+    align-items: center;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+#Menu_LE h3{
+    font-size: 15px;
+}
+
+#Footer{
+    display: flex;
+    background-color: seagreen;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Footer h2{
+    font-size: 15px;
+}
+
+#Menu_C{
+    margin: 25px;
+}
+#titulo{
+    margin-left: 25px;
+}
+
+#texto01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    display: block;
+    margin-left: 25%;
+}
