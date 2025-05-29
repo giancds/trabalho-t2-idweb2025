@@ -15,7 +15,6 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     line-height: 1.8;
     font-size: 18px;
-    
 }
 
 .receita-container p {
@@ -69,3 +68,4 @@ header {
     padding: 20px 0;
     border-top: 1px solid #ccc;
 }
+
