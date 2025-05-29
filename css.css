@@ -1,0 +1,16 @@
+h1 {
+    margin: auto;
+    text-align: center;
+}
+.popup{
+    margin-top: center;
+    text-align: justify !important;
+    padding: 10px solid black;
+}
+table{
+    border-color: black!important;
+}
+th td{
+    border: 1px solid black;
+    justify-content: center;
+}
