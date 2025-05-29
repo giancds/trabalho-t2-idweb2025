@@ -1,0 +1,33 @@
+body {
+    background-color: #54728f;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.receita-card {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    transition: transform 0.2s;
+}
+
+.receita-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 32px rgba(172, 45, 45, 0.13);
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 14px 14px 0 0;
+}
+
+.card-title {
+    color: #0056b3;
+}
+
+footer {
+    font-size: 1rem;
+}
+
+.mb4-text-center {
+    color: black;
+}
