@@ -1,0 +1,30 @@
+.titulo {
+    text-align: center;
+    color: #015599;
+    font-size: 70px;
+    border-style: solid;
+  }
+
+.link {
+    text-align: center;
+    color: #015599;
+    font-size: 30px;
+  }
+
+.button1 {
+    background-color: 008cff;
+    color: #015599;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+
+.subtitulo {
+    text-align: center;
+    color: #1670b9;
+    font-size: 60px;
+  }
+  .roda{
+    text-align: center;
+    color: #015599;
+    font-size: 20px;
+  }
