@@ -3,7 +3,7 @@ header{
     background-color: #00939c;
     height: 125px;
     text-align: center;
-    color: #502000
+    color: #502000;
 }
 
 img{
@@ -11,10 +11,10 @@ img{
 }
 
 h2{
+    color: #502000;
     text-align: center;
-    color: #502000
 }
 
 h3{
-    color: #9C3E00
+    color: #9C3E00;
 }
