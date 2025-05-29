@@ -1,0 +1,21 @@
+.head{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #ebebeb;
+    height: 6.5%;
+}
+.fontelogo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto{
+    height:350px;
+    padding:5%;
+
+}
+.fontesub{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imagem{
+    height: 350px;
+    padding: 0;
+}
