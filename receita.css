@@ -2,15 +2,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f9fc;
+    background-color: #f1d1b3;
     color: #2c3e50;
     line-height: 1.6;
     max-width: 1000px;
     margin: 0 auto;
 }
-
+.img_receita {
+    justify-content: center;
+    display: flex;
+}
 header {
-    background-color: #2c3e50;
+    background-color: #302d2f;
     color: white;
     padding: 20px;
     text-align: center;
@@ -25,7 +28,7 @@ nav {
 }
 
 nav a {
-    color: #ecf0f1;
+    color: white;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -36,38 +39,26 @@ nav a:hover {
 
 h1 {
     text-align: center;
-    color: #2c3e50;
+    color: #fcfcfc;
     margin: 30px 0;
     padding-bottom: 15px;
-    border-bottom: 3px solid #3498db;
+    border-bottom: 3px solid #fdbb2e;
     font-size: 2.2em;
 }
 
 ol {
     padding: 0;
     list-style-type: none;
-    counter-reset: fase-counter;
 }
 
 ol > li {
-    background-color: white;
+    background-color: #faf0e8;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 30px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    counter-increment: fase-counter;
 }
 
-ol > li::before {
-    content: counter(fase-counter) "ª Fase";
-    display: block;
-    font-size: 1.8em;
-    font-weight: bold;
-    color: #3498db;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #eee;
-}
 
 ul {
     list-style-type: none;
@@ -93,11 +84,11 @@ h2 {
 }
 
 h3 {
-    color: #3498db;
+    color: #fdbb2e;
     font-size: 1.2em;
     margin: 0 0 10px 0;
     padding-left: 10px;
-    border-left: 3px solid #3498db;
+    border-left: 3px solid #fdbb2e;
 }
 
 p {
@@ -120,7 +111,7 @@ ul ul li {
 
 ul ul li::before {
     content: "•";
-    color: #3498db;
+    color: #fdbb2e;
     position: absolute;
     left: 0;
     font-weight: bold;
