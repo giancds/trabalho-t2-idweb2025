@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(192, 239, 253);
+}
+
+h2{
+color:rgb(19, 68, 173)
+}
+h3{
+    color:rgb(98, 138, 199)
+}
+.caixa {
+    align-items: center;
+  
+  background-color: rgb(78, 231, 241);
+  border: 1px solid rgb(79, 249, 255);
+  padding: 10px;
+  
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29dfff;
+    padding: 15px; 
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px; 
+  }
+   img {
+    max-width: 100%;
+    height: auto;
+  }
