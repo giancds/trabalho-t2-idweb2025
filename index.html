@@ -1,21 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-            crossorigin="anonymous"
-        />
-        <title>Título do Trabalho</title>
-    </head>
-    <body>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet">
+    <title>Receita de pudim - Estudante A (Isabela Chiocheta)</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pudim</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">INGREDIENTES</a>
+                    <a class="nav-link" href="#">MODO DE PREPARO</a>
+                    <a class="nav-link" href="#">UTENSILÍOS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h1>Receita de pudim</h1>
+
+                <div class="d-flex justify-content-center my-4">
+                    <div id="meuCarrossel" class="carousel slide w-75 w-md-50" data-bs-ride="carousel"
+                        style="max-width: 500px;">
+                        <div class="carousel-inner rounded shadow">
+                            <div class="carousel-item active">
+                                <img src="https://static.itdg.com.br/images/640-400/d1307a2e17cda187df76b78cfd3ac464/shutterstock-2322251819-1-.jpg"
+                                    class="d-block w-200" alt="Primeiro slide, pudim">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://static.itdg.com.br/images/640-400/66a279e62e281c7c6034c9e56c25dd2e/197574-original.jpg"
+                                    class="d-block w-200" alt="Segundo slide, pudim">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://static.itdg.com.br/images/640-400/cf3d8d24ca64acc038fd4d94ce60be19/210506-original.jpg"
+                                    class="d-block w-200" alt="Terceiro slide, pudim">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <ul>
+                        <h2>Ingredientes</h2>
+                        <h3>Pudim</h3>
+                        <li>1 lata de leite condensado</li>
+                        <li>1 lata de leite (medida da lata de leite condensado)</li>
+                        <li>3 ovos inteiros</li>
+
+                        <h3>Calda</h3>
+                        <li>1 xícara (chá) de açúcar</li>
+                        <li>1/2 xícara de água</li>
+                    </ul>
+                </div>
+
+                <div class="mb-3">
+                    <ul>
+                        <h2>Utensílios</h2>
+                        <li>Forma de pudim</li>
+                        <li>Liquidificador</li>
+                        <li>Panela</li>
+                        <li>Espatula</li>
+                        <li>Prato de sobremesa</li>
+                    </ul>
+                </div>
+
+                <div class="container text-center">
+                    <div class="row mb-4">
+                        <div class="col mb-4"><b>Tempo: 50min</b>
+                        </div>
+                        <div class="col"><b>Nível: fácil</b>
+                        </div>
+                        <div class="col"><b> Custo baixo</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <h2>Modo de preparo</h2>
+                    <h3>Pudim</h3>
+                    <ol class="list-group list-group-numbered" style="text-align: center;">
+                        <li class="list-group-item">Primeiro, bata bem os ovos no liquidificador.</li>
+                        <li class="list-group-item">Acrescente o leite condensado e o leite, e bata novamente.</li>
+                    </ol>
+
+                    <h3>Calda</h3>
+                    <ol class="list-group list-group-numbered" style="text-align: center;">
+                        <li class="list-group-item">Derreta o açúcar na panela até ficar moreno, acrescente a água e
+                            deixe engrossar.</li>
+                        <li class="list-group-item">Coloque em uma forma redonda e despeje a massa do pudim por cima.
+                        </li>
+                        <li class="list-group-item">Asse em forno médio por 45 minutos, com a assadeira redonda dentro
+                            de uma maior com água.</li>
+                        <li class="list-group-item">Espete um garfo para ver se está bem assado.</li>
+                        <li class="list-group-item">Deixe esfriar e desinforme.</li>
+                    </ol>
+                </div>
+
+                <div class="footer">
+                    <div class="row mb-4">
+                        <p class="mt-4">Receita Pudim - Isabela Chiocheta</p>
+                    </div>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                    crossorigin="anonymous"></script>
+</body>
+
 </html>
